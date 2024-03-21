@@ -1,0 +1,132 @@
+@media (max-width: 991.98px) {
+
+	/*Global*/
+	.sections-detail {
+		margin: 0 0 30px;
+	}
+	/*Banner*/
+	.yoga-template .banner .top-bar-left a {
+		font-size:17px;
+	}
+	.yoga-template .banner .banner-content .content-col {
+		padding-left: 30px;
+	}
+	/*Service*/
+	.yoga-template .service-section .service-detail > div {
+		margin-bottom: 40px;
+	}
+	.yoga-template .best-class-club .detail-col-club {
+		padding-right: 15px;
+	}
+	/*Class Yoga Club*/
+	.yoga-template .best-class-club .best-class-club-desc {
+		padding: 60px 30px;
+	}
+	.yoga-template .best-class-club .best-class-club-img {
+		padding: 250px 0;
+	}
+	/*Advantages*/
+	.yoga-template  .advantages-section {
+		padding: 60px 15px;
+	}
+	.yoga-template  .advantages-section {
+		background-image: url(../img/advantages-of-yoga-mobile.jpg);
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	}
+	.yoga-template  .advantages-section .section-title{
+		color: #fe86d4;
+	}
+	.yoga-template  .advantages-section .section-title-desc {
+		color: #fff;
+	}
+	.yoga-template .advantages-section .advantages-detail-title {
+		color: #fe86d4;
+    	margin-top: 10px;
+	}
+	.yoga-template .advantages-section .advantages-detail-desc {
+		color: #fff;
+	}
+	.yoga-template .advantages-section .advantages-detail-soul,
+	.yoga-template .advantages-section .advantages-detail-health,
+	.yoga-template .advantages-section .advantages-detail-relax,
+	.yoga-template .advantages-section .advantages-detail-energy,
+	.yoga-template .advantages-section .advantages-detail-mind,
+	.yoga-template .advantages-section .advantages-detail-meditat {
+		width: 100%;	
+		text-align: center;
+		margin: 0 auto 24px;
+	}
+	/*Yoga Place*/
+	.yoga-template .yogaPlace-section .yogaPlace-col > div{
+		margin-bottom: 40px;
+	}
+	/*Contact us*/
+	.yoga-template .contact-section .appointment 
+	.appointment-form .box-select::before {
+	    content: "\f0dd";
+	    font-family: "Font Awesome 5 Free";
+	    position: absolute;
+	    top: 41%;
+	    right: -0.5%;
+	    width: 35px;
+	    height: 38px;
+	    text-align: center;
+	    font-size: 14px;
+	    line-height: 37px;
+	    color: rgb(255, 255, 255);
+	    background-color: rgb(123, 108, 213);
+	    font-weight: 600;
+	    border-radius: 3px;
+	    transform: translate(-50%, -50%);
+	}
+	.yoga-template .contact-section .appointment 
+	.appointment-form .appointment-form-col-left {
+		padding-right: 15px;
+	}
+	.yoga-template .contact-section .appointment 
+	.appointment-form .appointment-form-col-right {
+		padding-left: 15px;
+	    padding-right: 15px;
+	}
+	/* Trainers*/
+	.yoga-template .trainer-section .trainer-col {
+		margin-bottom: 0px;
+	}
+	.yoga-template .trainer-section .trainer-col > div{
+		margin-bottom: 40px;
+	}
+	/*Copyright*/
+	.yoga-template .footer .copyright,
+	.yoga-template .footer .copyright .social {
+		text-align: center;
+	}
+}
+@media (max-width: 767.98px)  { 
+	/*Banner*/
+	.yoga-template .banner .top-bar,
+	.yoga-template .banner .top-bar-right {
+		text-align: center;
+	}
+	/*Contact us*/
+	.yoga-template .contact-section .appointment 
+	.appointment-form .box-select::before {
+	    content: "\f0dd";
+	    font-family: "Font Awesome 5 Free";
+	    position: absolute;
+	    top: 41%;
+	    right: -0.6%;
+	    width: 35px;
+	    height: 38px;
+	    text-align: center;
+	    font-size: 14px;
+	    line-height: 37px;
+	    color: rgb(255, 255, 255);
+	    background-color: rgb(123, 108, 213);
+	    font-weight: 600;
+	    border-radius: 3px;
+	    transform: translate(-50%, -50%);
+	}
+
+}

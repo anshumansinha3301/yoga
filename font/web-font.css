@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('JosefinSans-Bold.eot');
+    src: url('JosefinSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('JosefinSans-Bold.woff2') format('woff2'),
+        url('JosefinSans-Bold.woff') format('woff'),
+        url('JosefinSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('JosefinSans-SemiBold.eot');
+    src: url('JosefinSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('JosefinSans-SemiBold.woff2') format('woff2'),
+        url('JosefinSans-SemiBold.woff') format('woff'),
+        url('JosefinSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-SemiBold.eot');
+    src: url('OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-SemiBold.woff2') format('woff2'),
+        url('OpenSans-SemiBold.woff') format('woff'),
+        url('OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('RobotoSlab-Bold.eot');
+    src: url('RobotoSlab-Bold.eot?#iefix') format('embedded-opentype'),
+        url('RobotoSlab-Bold.woff2') format('woff2'),
+        url('RobotoSlab-Bold.woff') format('woff'),
+        url('RobotoSlab-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Regular.eot');
+    src: url('OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-Regular.woff2') format('woff2'),
+        url('OpenSans-Regular.woff') format('woff'),
+        url('OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Bold.eot');
+    src: url('OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-Bold.woff2') format('woff2'),
+        url('OpenSans-Bold.woff') format('woff'),
+        url('OpenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('RobotoSlab-Regular.eot');
+    src: url('RobotoSlab-Regular.eot?#iefix') format('embedded-opentype'),
+        url('RobotoSlab-Regular.woff2') format('woff2'),
+        url('RobotoSlab-Regular.woff') format('woff'),
+        url('RobotoSlab-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('JosefinSans-Regular.eot');
+    src: url('JosefinSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('JosefinSans-Regular.woff2') format('woff2'),
+        url('JosefinSans-Regular.woff') format('woff'),
+        url('JosefinSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

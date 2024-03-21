@@ -1,0 +1,593 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	color: #555;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: normal;
+	text-align: left;
+}
+h1,h2,h3,
+h4,h5,h6 {
+	font-size: inherit;
+	line-height: inherit;
+	font-family: 'Josefin Sans', sans-serif;	
+}
+h1,h2,h3,
+h4,h5,h6,p,ul,li,a,span {
+	margin:0;
+}
+a {
+	text-decoration: none;
+	color:#555;
+	cursor: pointer;
+}
+.main-container {
+	max-width: 1920px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;	
+}
+.inside-container {
+	max-width: 940px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.sections-detail {
+	margin: 0 0 55px;
+}
+.section-title {
+	font-family: 'Roboto Slab', serif;
+	font-size: 28px;
+	line-height: 40px;
+	letter-spacing: 0.84px;
+	font-weight: 700;
+	color: #7b6cd5;
+	text-align: center;
+}
+.section-title-desc {
+	font-size: 15px;
+	line-height: 40px;
+	font-weight: 400;
+	letter-spacing: 0.45px;
+	color: #666;
+	text-align: center;
+}
+/*Banner*/
+.yoga-template .banner {
+	background-image: url(../img/yoga-header.jpg);
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: auto;
+	color:#fff;
+	position: relative;
+}
+.yoga-template .banner .banner-overlay {
+	position: absolute;
+	top: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    background-color: rgba(0,0,0,.5);
+    z-index: 2;
+}
+.yoga-template .banner .top-bar{
+	padding:26px 15px; 
+	border-bottom: 1px solid #fff;
+}
+.yoga-template .banner .top-bar-left ,
+.top-bar-right {
+	padding-top: 24px;	
+	z-index: 3;
+}
+.yoga-template .banner .top-bar-left a {
+	color:#fff;
+	font-size: 18px;
+	letter-spacing: 0.18px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	vertical-align: middle
+}
+.yoga-template .banner .logo {
+	text-align: center;
+	z-index: 3;
+}
+.yoga-template .banner .top-bar-right {
+	text-align: right;
+}
+.yoga-template .banner .top-bar-right a {
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
+	font-size: 18px;
+	letter-spacing: 0.18px;
+	font-weight: 400;
+	vertical-align: middle
+}
+.yoga-template .banner .top-bar-left a:hover,
+.yoga-template .banner .top-bar-right a:hover{
+	color:#fe86d4;
+	text-decoration: none;
+}
+.yoga-template .banner .top-bar-left i,
+.top-bar-right i {
+	font-size: 16px;
+    background-color: #fff;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    text-align: center;
+    color: #3e2d40;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+.yoga-template .banner .banner-content {
+	padding: 126px 15px;
+}
+.yoga-template .banner .banner-content .content-col {
+	text-align: center;
+	z-index: 3;
+}
+.yoga-template .banner .banner-content .site-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40px;
+	line-height: 40px;
+	font-weight: 700;
+	margin-bottom: 18px;
+	padding-right: 15px;
+}
+.yoga-template .banner .banner-content .site-title-desc {
+	font-size: inherit;
+	line-height: 25px;
+	letter-spacing: 0.45px;
+	margin-bottom: 51px;
+	width: 97%;
+}
+.yoga-template .banner .banner-content a.banner-btn {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 0.6px;
+	font-weight: 700;
+	padding: 21px 32px 19px;
+	background-color: #fe86d4;
+	color:#fff;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+.yoga-template .banner .banner-content a.banner-btn:hover {
+	text-decoration: none;
+	color: #7b6cd5;
+}
+/*Service*/
+.yoga-template .service-section {
+	padding: 62px 15px;
+}
+.yoga-template .service-section .service-detail {
+	text-align: center;
+}
+.yoga-template .service-section .service-detail a:hover {
+	text-decoration: none;
+}
+.yoga-template .service-section .service-detail a:hover .service-title{
+	text-decoration: none;
+	color: #fe86d4;
+}
+.yoga-template .service-section .service-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+	line-height: 40px;
+	font-weight: 700;
+	letter-spacing: 0.75px;
+	color: #000;
+	margin-bottom: 15px;
+}
+.yoga-template .service-section .service-desc {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 25px;
+	font-weight: 400;
+	letter-spacing: 0.40px;
+}
+.yoga-template .service-section .service-detail-img {
+	max-width: 90px;
+ 	height: auto;
+}
+/*Class Yoga Club*/
+.yoga-template .best-class-club .detail-col-club{
+	padding-bottom: 10px;
+}
+.yoga-template .best-class-club .best-class-club-desc {
+	background-color: #f5f5f5;
+	padding: 60px 15px;
+}
+.yoga-template .best-class-club .best-class-club-desc .club-section-title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    line-height: 40px;
+    color: #7b6cd5;
+    font-weight: 600;
+	text-align: left;
+}
+.yoga-template .best-class-club .best-class-club-desc ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 13px;
+}
+.yoga-template .best-class-club .best-class-club-desc ul li {
+  padding-left: 1.3em;
+  margin-bottom: 10px;
+}
+.yoga-template .best-class-club .best-class-club-desc ul li:before {
+  content:"\f0e7";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: inline-block;
+  margin-left: -1.3em; 
+  width: 1.3em;
+  font-size: 12px;
+  line-height: 40px;
+  color: #7b6cd5; 
+}
+.yoga-template .best-class-club .best-class-club-img {
+	background-image: url(../img/the-best-class-yoga.jpg);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+/*Advantages*/
+.yoga-template .advantages-section {
+	padding: 60px 15px 270px;
+}
+.yoga-template .advantages-section {
+	background-image: url(../img/advantages-of-yoga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.yoga-template .advantages-section .advantages-detail a:hover {
+	text-decoration: none;
+}
+.yoga-template .advantages-section .advantages-detail a:hover .advantages-detail-title {
+	text-decoration: none;
+	color: #fe86d4;
+}
+.yoga-template .advantages-section .advantages-detail-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 0.6px;
+	font-weight: 600;
+	color: #444;
+}
+.yoga-template .advantages-section .advantages-detail-desc {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 25px;
+	letter-spacing: 0.45px; 
+	color: #666;
+}
+.yoga-template .advantages-section .advantages-detail-img svg{
+	max-width: 50px;
+	height: auto;
+}
+.yoga-template .advantages-section .advantages-detail-soul,
+.yoga-template .advantages-section .advantages-detail-health,
+.yoga-template .advantages-section .advantages-detail-relax {
+	text-align: right;
+	width: 50%;	
+}
+.yoga-template .advantages-section .advantages-detail-soul {
+	margin: 0 0 24px auto; 
+}
+.yoga-template .advantages-section .advantages-detail-health {
+	margin: 0 auto 24px;
+}
+.yoga-template .advantages-section .advantages-detail-energy,
+.yoga-template .advantages-section .advantages-detail-mind,
+.yoga-template .advantages-section .advantages-detail-meditat {
+	width: 50%;	
+}
+.yoga-template .advantages-section .advantages-detail-energy {
+	margin-bottom: 24px;
+}
+.yoga-template .advantages-section .advantages-detail-mind {
+	margin: 0 auto 24px;
+}
+.yoga-template .advantages-section .advantages-detail-meditat {
+	margin-left: auto; 
+}
+/*Yoga Place*/
+.yoga-template .yogaPlace-section {
+	padding: 60px 15px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+.yoga-template .yogaPlace-section .yogaPlace-img {
+	width: 145px;
+    height: 145px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 auto 18px;
+    overflow: hidden;
+}
+.yoga-template .yogaPlace-section .yogaPlace-img .yogaPlace-in-img {
+	max-width: 145px;
+    border-radius: 50%;
+}
+.yoga-template .yogaPlace-section .yogaPlace-col a:hover {
+	text-decoration: none;
+}
+.yoga-template .yogaPlace-section .yogaPlace-col a:hover .yogaPlace-title {
+	text-decoration: none;
+	color: #fe86d4;
+}
+.yoga-template .yogaPlace-section .yogaPlace-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 22px;
+	line-height: 40px;
+	letter-spacing: 0.88px;
+	font-weight: 600;
+	color: #434343;
+}
+.yoga-template .yogaPlace-section .yogaPlace-desc {
+	font-family: inherit;
+	font-size: 15px;
+	line-height: 25px;
+	letter-spacing: 0.45px;
+	font-weight: 400;
+	color: #666;
+}
+/*Contact us*/
+.yoga-template .contact-section {
+	padding: 60px 15px; 
+}
+.yoga-template .contact-section .appointment {
+ 	border: 1px solid #666; 
+ 	border-radius: 3px;
+ 	padding: 30px 28px 25px;
+}
+.yoga-template .contact-section .appointment .appointment-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 600;
+	letter-spacing: 0.6px;
+	text-align: center;
+	color:#7b6cd5;
+}
+.yoga-template .contact-section .appointment .appointment-desc {
+	font-family: inherit;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.56px;
+	color:#888;
+	text-align: center;
+}
+ .yoga-template .contact-section .appointment .appointment-form {
+ 	margin-top: 40px;
+ }
+.yoga-template .contact-section .appointment 
+.appointment-form  .appointment-form-input {
+	border: 1px solid #999;
+	height: 38px;
+	margin-bottom: 9px;
+	font-size: 12px;
+	line-height: 40px;
+	letter-spacing: 0.48px;
+}
+.yoga-template .contact-section .appointment 
+.appointment-form  .data-input {
+	text-transform: uppercase;
+}
+.yoga-template .contact-section .appointment 
+.appointment-form .appointment-form-text {
+	border: 1px solid #999;
+	margin-bottom: 20px;
+	font-size: 12px;
+	line-height: 40px;
+	letter-spacing: 0.48px;
+}
+.yoga-template .contact-section .appointment 
+.appointment-form .box-select::before {
+    content: "\f0dd";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    top: 41%;
+    right: -5%;
+    width: 35px;
+    height: 38px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 37px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(123, 108, 213);
+    font-weight: 600;
+    border-radius: 3px;
+    transform: translate(-50%, -50%);
+}
+.yoga-template .contact-section .appointment 
+.appointment-form .appointment-form-col-left {
+	padding-right: 7px;
+}
+.yoga-template .contact-section .appointment 
+.appointment-form .appointment-form-col-right {
+	padding-left: 7px;
+    padding-right: 7px;
+}
+
+.yoga-template .contact-section .appointment 
+.appointment-form .appointment-form-btn {
+	width: 100%;
+    padding: 18px 0 13px;
+    background-color: #7b6cd5;
+    border: 1px solid #7b6cd5;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+.yoga-template .contact-section .open-time {
+	text-align: center;
+}
+.yoga-template .contact-section .open-time .weekdays {
+	margin-top: 50px;
+}
+.yoga-template .contact-section .open-time .weekends {
+	margin-top: 40px;
+}
+.yoga-template .contact-section .open-time .open-time-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+	line-height: 40px;
+	font-weight: 600;
+	letter-spacing: 0.25px;
+	color: #7b6cd5;
+	margin-bottom: 5px;
+}
+.yoga-template .contact-section .open-time .open-time-clock {
+	font-family: inherit;
+	font-size: 18px;
+	line-height: 40px;
+	letter-spacing: 0.72px;
+	font-weight: 600;
+	color:#444;
+}
+.yoga-template .contact-section .open-time .open-time-course {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 40px;
+	letter-spacing: 0.6px;
+	color: inherit;
+}
+/* Trainers*/
+.yoga-template .trainer-section {
+	padding: 60px 15px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+.yoga-template .trainer-section .trainer-col {
+	margin-bottom: 40px;
+}
+.yoga-template .trainer-section .trainer-img {
+	width: 182px;
+    height: 182px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 auto 12px;
+    overflow: hidden;
+    border: unset;
+} 
+.yoga-template .trainer-section .trainer-img .trainer-in-img {
+	max-width: 182px;
+	border-radius: 50%;
+}
+.yoga-template .trainer-section .trainer-col a:hover {
+	text-decoration: none;
+}
+.yoga-template .trainer-section .trainer-col a:hover .trainer-title {
+	text-decoration: none;
+	color: #fe86d4;
+}
+.yoga-template .trainer-section .trainer-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 40px;
+	letter-spacing: 0.8px;
+	font-weight: 600;
+	color: #444;
+}
+.yoga-template .trainer-section .trainer-desc {
+	font-family: inherit;
+	font-size: 15px;
+	line-height: 40px;
+	letter-spacing: 0.45px;
+	font-style: italic;
+	font-weight: 400;
+	color: #666;
+}
+/*Join Us*/
+.yoga-template .join-us-section {
+	padding: 55px 15px;
+	text-align: center;
+}
+.yoga-template .join-us-section .join-us-btn {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 0.6px;
+	font-weight: 700;
+	color:#fff;
+	text-transform:uppercase; 
+	background-color: #7b6cd5;
+	border: 1px solid #7b6cd5;
+	border-radius: 3px;
+	padding: 21px 52px 19px 53px;
+}
+.yoga-template .join-us-section .join-us-btn:hover {
+	text-decoration: none;
+	color: #fe86d4;
+}
+.yoga-template .join-us-section .join-us-call {
+	font-family: inherit;
+	font-size: 16px;
+	line-height: 40px;
+	letter-spacing: 0.64px;
+	margin-top: 22px;
+}
+.yoga-template .join-us-section .join-us-phone-nr {
+	font-family: inherit;
+	font-size: 18px;
+	line-height: inherit;
+	letter-spacing: inherit;
+	font-weight: 600;
+	color: #222;
+}
+.yoga-template .join-us-section .join-us-phone-nr:hover {
+	text-decoration: none;
+	color: #fe86d4;
+}
+/*Copyright*/
+.yoga-template .footer .copyright {
+	padding: 50px 15px;
+	background-color: #7b6cd5;
+	color: #fff;
+	font-family: inherit;
+	font-size: 14px;
+	line-height: 26px;
+}
+.yoga-template .footer .copyright .created-by {
+	color: #fff;
+}
+.yoga-template .footer .copyright .created-by:hover {
+	color: #fe86d4;
+	text-decoration: none;
+}
+.yoga-template .footer .copyright .social {
+	text-align: right;
+	font-size: 14px;
+	line-height: 26px;
+}
+.yoga-template .footer .copyright .social a {
+	color: #fff;
+}
+.yoga-template .footer .copyright .social a:hover {
+	color: #fe86d4;
+}
+.yoga-template .footer .copyright .social .fab {
+	padding-left: 14px;
+}
